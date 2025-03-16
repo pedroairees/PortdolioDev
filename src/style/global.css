@@ -6,7 +6,7 @@
     /* Asap */
     --title-lg: 700 3.5rem/120% var(--asap-font);
     --title-md: 700 1.5rem/120% var(--asap-font);
-    --title-sm: 700 1rem/120% var(--asap-font)
+    --title-sm: 700 1rem/120% var(--asap-font);
     /* inconsolata*/
     --subtitle: 400 1.25rem/120% var(--inconsolata-font);
     /* maven pro*/
@@ -36,4 +36,5 @@
 
 body {
     color: var(--gray-600);
+    background-color: var(--gray-200);
 }

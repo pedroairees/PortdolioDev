@@ -1,0 +1,56 @@
+.secao-projeto {
+    padding-bottom: 9rem;
+
+    & > p {
+        color: var(--red);
+        font: var(--subtitle);
+        margin-top: 72px;
+    }
+
+    & > h2 {
+        font: var(--title-md);
+        margin-block: .5rem 3.5rem;
+    }
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card-projetos {
+    width: 20.625rem;
+    height: 17.5rem;
+    background-color: var(--gray-300);
+    border-radius: .75rem;
+    padding: .75rem;
+
+    & > img {
+        width: 19.125rem;
+        height: 9.75rem;
+        border-radius: .5rem;
+        object-fit: cover;
+    }
+
+    & > h3 {
+        margin-block: 1.25rem .5rem;
+        font: var(--title-sm)
+    }
+
+    & > p {
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+}
+
+.vazio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > h3 {
+        font-size: 1.875rem;
+        color: var(--gray-500);
+    }
+}
