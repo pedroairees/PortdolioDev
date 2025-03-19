@@ -1,16 +1,16 @@
 .secao-projeto {
     padding-bottom: 9rem;
+}
 
-    & > p {
-        color: var(--red);
-        font: var(--subtitle);
-        margin-top: 72px;
-    }
+.paragraph-subtitle {
+    color: var(--red);
+    font: var(--subtitle);
+    margin-top: 72px;
+}
 
-    & > h2 {
-        font: var(--title-md);
-        margin-block: .5rem 3.5rem;
-    }
+.title-section {
+    font: var(--title-md);
+    margin-block: .5rem 3.5rem;
 }
 
 #projetos {
@@ -51,6 +51,39 @@
 
     & > h3 {
         font-size: 1.875rem;
+        color: var(--gray-500);
+    }
+}
+
+.work {
+    background-color: var(--gray-100);
+
+    & .paragraph-subtitle {
+        margin-top: 5.5rem;
+    }
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 7.5rem;
+    gap: 1.5rem;
+}
+
+.card-services {
+    width: 17.5rem;
+    height: 9.6875rem;
+    border: 2px solid var(--gray-200);
+    padding: 1.25rem;
+
+    & h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-block: 1.25rem .5rem;
+    }
+
+    & p {
+        font: var(--text-sm);
         color: var(--gray-500);
     }
 }
