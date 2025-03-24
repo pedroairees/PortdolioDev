@@ -36,11 +36,20 @@ footer {
     border-radius: .5rem;
 
     width: 25rem;
+    transition: .3s;
 
     & > p {
         font: var(--text-md);
         font-weight: 500;
         color: var(--gray-500);
         width: 78%;
+    }
+
+    &:hover {
+        outline: 1.5px solid var(--blue);
+    }
+
+    &:hover > img {
+        filter: invert(46%) sepia(77%) saturate(354%) hue-rotate(178deg) brightness(90%) contrast(100%);
     }
 }

@@ -26,11 +26,16 @@
     border-radius: .75rem;
     padding: .75rem;
 
+    transition: .3s;
+    overflow: hidden;
+
     & > img {
         width: 19.125rem;
         height: 9.75rem;
         border-radius: .5rem;
         object-fit: cover;
+        transform-origin: center;
+        transition: transform 0.3s ease-in-out;
     }
 
     & > h3 {
@@ -41,6 +46,14 @@
     & > p {
         font: var(--text-sm);
         color: var(--gray-500);
+    }
+
+    &:hover {
+        outline: 1.5px solid var(--gray-400);
+
+        & img {
+            transform: scale(1.3);
+        }
     }
 }
 
