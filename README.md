@@ -24,4 +24,4 @@ Este é o meu site pessoal, onde apresento meus projetos, habilidades e experiê
 
 ### 📖 License
 
-This project is under the MIT license. See the file [LICENSE](https://github.com/pedroairees/byteNews/blob/main/LICENSE) for more details.
+This project is under the MIT license. See the file [LICENSE](https://github.com/pedroairees/PortfolioDev/blob/main/LICENSE) for more details.
